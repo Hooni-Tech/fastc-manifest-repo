@@ -45,7 +45,7 @@ spec:
             timeoutSeconds: 5
             periodSeconds: 10
             initialDelaySeconds: 20
-           readinessProbe:
+          readinessProbe:
             httpGet:
               path: /wrong
               port: http
